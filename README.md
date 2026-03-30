@@ -17,7 +17,14 @@
 
 - Node.js 18 及以上版本
 - 本机需要有可用的 Chromium、Chrome 或 Edge 浏览器
-- 如果你是基于源码在本地开发，先执行 `npm install` 安装 Node.js 依赖，其中会安装 `playwright-core`
+- 需要安装 `playwright-core`
+
+安装命令：
+
+```bash
+npm install playwright-core
+```
+
 
 ### 方式一：全局安装
 
