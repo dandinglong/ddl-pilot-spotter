@@ -1,0 +1,39 @@
+# Node dependencies
+node_modules/
+
+# Go local workspace/cache
+.gocache/
+.gomodcache/
+.gopath/
+.gotmp/
+
+# Build outputs
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.out
+
+# Runtime artifacts
+records/
+*.log
+
+# Environment and local overrides
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# IDE/editor/system temp files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.tmp
+*.temp
+*.swp
+*.swo
+
+docs/*

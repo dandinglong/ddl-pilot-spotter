@@ -1,0 +1,25 @@
+{
+  "name": "ddl-pilot-spotter",
+  "version": "0.1.1",
+  "description": "Enhanced Playwright MCP server with browser automation passthrough and click action recording",
+  "license": "MIT",
+  "bin": {
+    "spotter": "bin/spotter.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "start": "node ./bin/spotter.js mcp",
+    "test:node": "node --test src/runtime/*.test.js src/cli/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.28.0",
+    "playwright-core": "1.58.2",
+    "zod": "^4.3.6"
+  }
+}
