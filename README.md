@@ -19,20 +19,14 @@
 - 本机需要有可用的 Chromium、Chrome 或 Edge 浏览器
 - 如果你是基于源码在本地开发，先执行 `npm install` 安装 Node.js 依赖，其中会安装 `playwright-core`
 
-### 方式一：直接使用 npx
-
-```bash
-npx ddl-pilot-spotter mcp
-```
-
-### 方式二：全局安装
+### 方式一：全局安装
 
 ```bash
 npm install -g ddl-pilot-spotter
 spotter mcp
 ```
 
-### 方式三：本地源码安装
+### 方式二：本地源码安装
 
 ```bash
 npm install
@@ -175,7 +169,7 @@ spotter mcp --user-data-dir "D:\workspace\chrome_profiles\spotter"
 示例：
 
 ```bash
-spotter mcp --headless=false
+spotter mcp --headless false
 ```
 
 ### 环境变量
