@@ -17,20 +17,13 @@
 
 - Node.js 18 及以上版本
 - 本机需要有可用的 Chromium、Chrome 或 Edge 浏览器
-- 需要安装 `playwright-core`
-
-安装命令：
-
-```bash
-npm install playwright-core
-```
+- 本项目依赖 `playwright-core`
 
 
 ### 方式一：全局安装
 
 ```bash
 npm install -g ddl-pilot-spotter
-spotter mcp
 ```
 
 ### 方式二：本地源码安装
@@ -38,7 +31,6 @@ spotter mcp
 ```bash
 npm install
 npm install -g .
-spotter mcp
 ```
 
 ## 3. 使用
